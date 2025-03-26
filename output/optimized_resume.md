@@ -1,5 +1,5 @@
-```markdown
-# Sonam Mandawat's Resume
+
+# Sonam's Resume
 
 ## Contact Information
 - **Phone:** +91 7818854677
@@ -13,16 +13,15 @@
 ### Indian Institute of Information Technology, Bhagalpur  
 **Bachelor of Technology in Computer Science and Engineering**  
 **CGPA:** 8.21 (Absolute)  
-**Dec 2021 - Jul 2025**
+**Dec 2021 - Jul 2025**  
 
 ### Relevant Coursework:
-- Data Structures
-- Algorithms
-- Software Development Lifecycle
+- Data Structures and Algorithms
+- Artificial Intelligence
+- Computer Networks
 - Object-Oriented Programming (C++)
 - Database Management Systems (DBMS)
 - Operating Systems
-- Artificial Intelligence
 - Machine Learning
 
 ---
@@ -30,51 +29,56 @@
 ## Work Experience
 ### PYC (IIIT Bhagalpur) - **Community In-Charge**  
 **Mar 2023 - Apr 2024**  
-- Developed and facilitated educational workshops and coding contests for a community of 500+ members, enhancing team collaboration and problem-solving skills.
-- Created over 20 coding problems as a problem setter for intra-college contests, boosting participation from 300+ and 2000+ contestants, demonstrating strong software design and delivery capabilities.
+- Provided support in Data Structures and Algorithm classes for a community of 500+ members, enhancing understanding and application of concepts.
+- Organized multiple coding contests and effectively resolved DSA queries for community members to foster collaborative learning.
+- Developed and set problems for the TLE Busters intra-college coding contest with 300+ contestants, ensuring a challenging yet fair environment.
+- Led the CodeLoop Contest, engaging 2000+ participants at IIITBH’s Techno-Cultural Fest, ENYUGMA, promoting coding culture and participation.
 
 ---
 
 ## Projects
-### **CraftsVilla** | *Technologies: React.js, Node.js, Express.js, MongoDB*  
+### **CraftsVilla** | *Technologies: React.js, Node.js, Express.js, MongoDB, JWT, Bcrypt.js*  
 **May 2024 - Aug 2024**  
-- Designed and developed an E-Commerce D2C portal, optimizing artisan sales and improving business profitability, demonstrating expertise in full-stack development.
-- Implemented efficient backend algorithms to ensure high performance and seamless user experience.
-- **Source Code:** [GitHub Repository](https://github.com/Sonam080804/CraftsVilla)
+- Engineered a D2C E-Commerce portal enabling artisans to sell directly, resulting in increased revenues and market reach.
+- Designed an intuitive user interface and optimized functionality using modern web technologies, enhancing user experience.
 
 ### **FoodMela** | *Technologies: React.js, Node.js, Express.js, MongoDB*  
 **Nov 2023 - Jan 2024**  
-- Developed a user-friendly food ordering platform using the MERN stack, focusing on enhancing customer experience through intuitive interface design and efficient ordering processes.
-- Ensured database optimization and performance monitoring throughout development.
-- **Source Code:** [GitHub Repository](https://github.com/Sonam080804/FoodMela)
+- Developed a user-friendly food ordering platform leveraging the MERN stack, improving the convenience of meal ordering for customers.
+- Implemented features for seamless menu navigation and order placements, contributing to an enhanced dining experience.
 
 ---
 
 ## Technical Skills
-| Skill                           | Proficiency Level     |
-|--------------------------------|-----------------------|
-| **Languages:**                 | C, C++, JavaScript    |
-| **Frameworks & Technologies:** | React.js, Node.js, Express.js, JWT |
-| **Tools:**                     | VS Code, Git, GitHub  |
-| **Databases:**                 | MySQL, MongoDB        |
-| **Soft Skills:**               | Problem-solving, Team collaboration, Effective communication   |
+- **Languages:** C, C++, JavaScript, HTML, CSS, SQL
+- **Technologies:** React.js, Node.js, Express.js, Mongoose, JWT
+- **Tools:** VS Code, Git, GitHub, CodeBlocks
+- **Databases:** MySQL, MongoDB
+- **Operating Systems:** Windows, Linux
+- **Methodologies:** Agile Development, Software Development Life Cycle (SDLC)
+
+---
+
+## Coding Profiles
+- **CodeChef**: 4-star rating (Max Rating: 1801)
+- **LeetCode**: Knight (Max Rating: 1972), Top 3% of users
+- **Codeforces**
+- **GeeksforGeeks**
+- **Coding Ninjas**
 
 ---
 
 ## Achievements & Extracurricular Activities
-- Achieved a **4-star rating on CodeChef**, reflecting dedication to Competitive Programming and software competency.
-- Ranked **Knight on LeetCode** (Max Rating: 1972), placing in the top 3% among users, showcasing problem-solving skills.
-- Attained **All India Rank 2** in the Code Combat 3.0 hosted by Coding Ninjas, and secured 3rd place in GFG intra-college coding contest.
-- **Ranked 26th globally** in CodeChef Starter 115 (Div 3) with over 10k+ participants and maintained team rank under 10 in Smart India Hackathon’s preliminary round. 
+- **AIR 2** in Code Combat 3.0, showcasing superior coding abilities.
+- **3rd place** in the GFG intra-college coding contest out of 200+ contestants.
+- **Ranked 6th** in ICPC College Round, outperforming 16 teams.
+- Achieved **Global Rank of 77** in CodeRush May’23 competition with over 37k participants.
+- **Maintained team rank within top 10** in Smart India Hackathon’s College preliminary round.
+- **Ranked 250** among 50k+ participants in Open Coding Round of Code Gladiators 2023 by Techgig.
 
 ---
 
 ## Summary
-Highly motivated Software Engineer in progress with a solid foundation in software development, algorithms, and database management. Experienced in collaborative project environments and fostering community engagement. Proven track record in competitive programming, showcasing strong analytical skills and problem-solving capabilities. Eager to learn and grow in innovative tech environments, while contributing effectively to team efforts and project success.
+A proactive and passionate Software Engineer in training with strong foundations in programming, data structures, and algorithms, seeking to leverage technical expertise and problem-solving skills in a dynamic entry-level role. My experience in collaborative environments and project-led learning exemplifies my commitment to coding excellence and innovation.
 
-### Key Competencies
-- Proficiency in **Data Structures and Algorithms**.
-- Familiarity with **Software Development Lifecycle** and **Agile methodologies**.
-- Experience in code quality assurance and version control using **Git**.
-- Strong communication skills and proactive team collaboration approach.
 ```
