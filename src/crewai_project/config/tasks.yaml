@@ -1,0 +1,65 @@
+parse_resume:
+  description: >
+    Thoroughly analyze the resume present at {resume_path} 
+    And extract key skills, professional experiences, educational background,
+    technical competencies, and notable achievements.
+    - Key skills (both technical and soft skills)
+    - Work experience (roles, responsibilities, achievements)
+    - Education background (degrees, certifications, special courses)
+    - Technical competencies (programming languages, tools, frameworks, methodologies)
+    - Notable achievements (hackathons, competitions, significant contributions)
+    Utilize NLP techniques such as Named Entity Recognition (NER) and keyword extraction to enhance parsing accuracy.
+    Output in a structured format.
+  expected_output: Give me all the content in a markdown file.
+  agent: resume_parser
+  output_file: output/parsed_resume.md
+
+analyze_job_description:
+  description: >
+    Conduct an in-depth analysis of the job description {jd_path} focusing on required and preferred skills,
+    key responsibilities, technical and soft skill requirements, company culture, and hidden expectations.
+  prompt: >
+      Analyze the provided job description and extract:
+      - Required skills and experience (both technical and non-technical)
+      - Preferred skills and qualifications
+      - Key responsibilities and expectations
+      - Soft skills and company culture insights
+      - Any hidden expectations or preferred industry knowledge
+      Utilize TF-IDF, SBERT, or cosine similarity to match keywords and enhance relevance.
+      Present the analysis in a structured skill matrix format with key insights.
+  expected_output: "Detailed job description analysis with skill matrix and key insights as a markdown file ."
+  agent: job_description_analyzer
+  output_file: output/parsed_jd.md
+
+optimize_resume_task:
+  description: >
+    Optimize the given resume {parsed_resume} to perfectly match the job description {parsed_jd} by aligning keywords, highlighting relevant skills and experiences,
+    using ATS-friendly formatting, and showcasing quantifiable achievements.
+  prompt: >
+      Based on the parsed resume and analyzed job description:
+      - Align skills, experiences, and keywords with the job description
+      - Emphasize relevant achievements using quantifiable metrics
+      - Format the resume in an ATS-friendly structure (90+ ATS score guaranteed)
+      - Ensure proper sectioning, bullet points, and keyword density for ATS optimization
+      - Utilize action-oriented language and keyword expansion using WordNet or AI-based suggestions
+      - Dynamically generate optimized content based on job requirements
+      Output the optimized resume in markdown format
+  expected_output: "Fully optimized resume in markdown format, ready for job application."
+  agent: resume_optimizer
+  output_file: output/optimized_resume.md
+
+project_suggestion:
+  description: >
+    Generate innovative project suggestions that align with the job requirements {parsed_jd} , showcase technical and soft skills,
+    and demonstrate problem-solving capabilities.
+  prompt: >
+      Suggest projects based on:
+      - Required technical skills and experience from the job description
+      - Gaps identified in the candidate's resume
+      - Industry trends and in-demand technologies (scraped from LinkedIn, GitHub Trends, Kaggle, etc.)
+      - Projects that demonstrate leadership, innovation, and real-world impact
+      Utilize LangChain with vector databases (FAISS, Pinecone, Weaviate) to recommend projects dynamically.
+      Provide a list of projects with a detailed description, implementation approach, and key takeaways.
+  expected_output: "List of strategic project recommendations with detailed descriptions."
+  agent: project_suggester
+  output_file: output/project_suggestions.md
